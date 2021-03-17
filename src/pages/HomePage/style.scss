@@ -1,0 +1,41 @@
+* {
+  margin: 0px;
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+.homeContainer {
+  background-color: #ffe600;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+
+  .logo {
+    height: 20rem;
+    display: inline;
+    margin-top: 2%;
+    margin-left: 15%;
+  }
+
+  .countriesContainer {
+    margin-top: 12%;
+    margin-left: -50px;
+
+    .countryContainer {
+      display: flex;
+      flex-direction: column;
+      margin-bottom:20px;
+
+      .flags {
+        height: 2.4rem;
+        width: 4rem;
+        margin-bottom: -14px;
+      }
+
+      .country {
+        display: inline;
+      }
+    }
+  }
+}
