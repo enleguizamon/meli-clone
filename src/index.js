@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 import HomePage from "./pages/HomePage";
 import ProductsPage from "./pages/ProductsPage";
-import Product from "./pages/Product";
+import ProductPage from "./pages/ProductPage";
 
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
@@ -14,8 +14,8 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 ReactDOM.render(
   <Router>
     <Route exact path="/" component={HomePage} />
-    <Route exact path="/products" component={ProductsPage} />
-    <Route exact path="/product/:id" component={Product} />
+    <Route exact path="/products/:site" component={ProductsPage} />
+    <Route exact path="/product/:id" component={ProductPage} />
   </Router>,
   document.getElementById('root')
 );

@@ -2,10 +2,11 @@ import { Link } from "react-router-dom";
 import "./style.scss";
 
 function Item(props) {
-  const { title, price, thumbnail } = props.product;
+  const { title, price, thumbnail, id } = props.product;
+
   return (
     <>
-    <Link to="/product/:id">
+    <Link to={`/product/${id}`}>
     <div className="itemContainer">
       <img src={thumbnail} className="itemImg"/>
       <hr className="line" id="line"/>

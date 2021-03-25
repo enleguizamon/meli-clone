@@ -1,0 +1,17 @@
+[
+  {
+  "name": "Argentina",
+  "flag": "https://lipis.github.io/flag-icon-css/flags/4x3/ar.svg",
+  "site": "MLA"
+},
+{
+  "name": "Brasil",
+  "flag": "https://lipis.github.io/flag-icon-css/flags/4x3/br.svg",
+  "site": "MLB"
+},
+{
+  "name": "Colombia",
+  "flag": "https://lipis.github.io/flag-icon-css/flags/4x3/co.svg",
+  "site": "MCO"
+}
+]
